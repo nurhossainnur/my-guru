@@ -1,0 +1,142 @@
+.home-img{
+    overflow: hidden;
+    width: 100%;
+    transition: .2s all ease-in-out;
+}
+.home-img img{
+    width: 100%;
+    transition: .2s all ease-in-out;
+}
+.home-img:hover img{
+    transform: scale(1.1);
+    
+}
+ /* .perent-five */
+.two-img{
+    overflow: hidden;
+    transition: .2s all ease-in-out;
+    margin-top: -5px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.two-img img{
+    transition: .2s all ease-in-out;
+    width: 100%;
+}
+.two-img img{
+    width: 100%;
+}
+.img-1:hover,.img-2:hover,
+.img-3:hover,.img-4:hover,
+.img-5:hover{
+    transform: scale(1.1);
+}
+/* .img-2:hover{
+    transform: scale(1.1);
+} */
+.thrid-bg{
+    background-image: url("./img/last.jpg");
+    background-repeat: no-repeat;
+    background-position: center center ;
+    background-size: cover;
+    
+  }
+
+.thrid-bg{
+    text-align: center;
+    padding: 1.3rem;
+}
+
+.thrid-bg h2{
+color: red;
+margin-top: 15px;
+
+}
+.thrid-bg p{
+
+    color: white;     
+    font-size: 20px; 
+    letter-spacing: 1.8px;  
+    padding-bottom: 12px;             
+}
+.middle-highte{
+    width: 100%;
+    height: 0px;
+    margin-bottom: 0px;
+}
+@media (max-width: 627px) {
+    .thrid-bg p{
+ 
+        font-size: 18px;          
+    }
+}
+
+/* two part start*/
+@media (max-width: 627px) {
+
+    .perent-five{
+        background-color: #F3F3F3;
+    }
+
+    .two-img{
+        display: block;
+        width: 282px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 320px) {
+    .two-img{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+/* two part end*/
+
+
+/* Home part start*/
+
+@media (max-width: 992px) {
+    .home-img{
+        margin-top: 38px;
+    }
+}
+@media (max-width: 865px) {
+    .home-img{
+        margin-top: 58px;
+    }
+}
+@media (max-width: 700px) {
+    .home-img{
+        margin-top: 88px;
+    }
+}
+@media (max-width: 600px) {
+    .home-img{
+        margin-top: 118px;
+
+    }
+}
+@media (max-width: 334px) {
+    .home-img{
+        margin-top: 128px;
+    }
+}
+@media (max-width: 326px) {
+    .home-img{
+        margin-top: 148px;
+    }
+}
+@media (max-width: 228px) {
+    .home-img{
+        margin-top: 168px;
+    }
+}
+/* Home part end*/
+
+
+
+
+
+

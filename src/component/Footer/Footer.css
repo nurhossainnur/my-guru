@@ -1,0 +1,282 @@
+.footer-perent{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 26% 27.5% 20% 27.5%;
+    justify-content: center;
+    max-width: 75%;
+    margin: 0 auto;
+    column-gap:4px ;
+    background-color: #FFFDF3;
+}
+.four-div ul li,
+.three-div ul li,
+.two-div ul li{
+    font-size: 16px;
+    letter-spacing: 0.5;
+    font-weight: 400;
+    line-height: 22px;
+}
+.one-div-head,
+.four-div-head h4,
+.three-div-head h4,
+.two-div-head h4{
+    font-size: 20.7px;
+    font-weight: 800;
+}
+
+
+ul li{
+    list-style-type: none;
+    color: #6f6c6c;
+    word-spacing: 1px;
+    font-size: 16px;
+}
+ul li a{
+    text-decoration: none;
+    color: #564E38;
+}
+ul li a:hover{
+color: red;
+}
+ul li span:hover{
+    color: red;
+    cursor: pointer;
+    }
+input{
+    width: 100%;
+   padding: 8px;
+}
+textarea{
+    height: 90px;
+    padding: 8px;
+    width: 100%;
+    resize: none;
+}
+.one-div-head{
+    padding-bottom: 0.7rem;
+}
+.comon{
+    color: red;
+}
+.face-icon,.twi-icon{
+    display: inline-block;
+    font-size: 2.3rem;
+   margin-top: 9px;
+    cursor: pointer;
+}
+.face-icon:hover,.twi-icon:hover{
+    color: red;
+}
+
+.two-div-head,
+.three-div-head,
+.four-div-head{
+    padding-bottom: 0.9rem;
+    color: black;
+  word-spacing: 0;
+}
+.color-red-li{
+    color: red;
+}
+.send-button{
+    color: #ffffff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.6px;
+    height: 41px;
+    font-weight: 500;
+    background-color: #6f6c6c;
+    border: none;
+    letter-spacing: 0px;
+    padding-left: 37px;
+    padding-right: 37px;
+    color: white;
+}
+
+.send-button:hover{
+    background-color: red;
+  
+}
+
+
+/* footer--2 css */
+
+.main-peren{
+    position: relative;
+    margin-top:134px;
+}
+
+.footer-two-perent div img{
+    margin-top: 15px;
+    width: 220px;
+}
+
+.footer-two-perent{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    background-color: #151515;
+    padding-bottom: 25px;
+    position: absolute;
+    width: 100%;
+
+}
+.footer-two-perent > img{
+    width: 216px;
+    margin-top: -43px;
+    /* margin-bottom: 42px; */
+    /* position: absolute;
+    top: 15px;*/
+    width: 173px;
+} 
+.footer-two-perent p{
+    padding-bottom: 3px;
+    font-size: 15px;
+}
+
+.footer-two-perent p a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #EF1817;
+  
+}
+.footer-two-perent p {
+    color: white;
+    margin: 0px;
+}
+
+/* footer one start here */
+
+
+@media (max-width: 1037px) {
+
+    .footer-perent{
+        max-width: 85%;
+    }
+    ul {
+        padding-left: 1.6rem;
+    }
+}
+@media (max-width: 992px) {
+    .footer-perent{
+        max-width: 89%;
+    }
+    ul {
+        padding-left: 1.6rem;
+    }
+}
+@media (max-width: 850px) {
+    .footer-perent{
+        max-width: 93%;
+    }
+    ul {
+        padding-left: 1.6rem;
+    }
+}
+@media (max-width: 815px) {
+    .footer-perent{
+        /* max-width: 73%;
+        display: block; */
+    }
+    ul {
+        /* padding-left: 0rem; */
+    }
+    .send-button{
+        height: 44px;
+        margin-top: 4px;
+        letter-spacing: 0px;
+        padding-left: 37px;
+        padding-right: 37px;
+    }
+    .one-div-head,
+    .four-div-head,
+    .three-div-head,
+    .two-div-head{
+       margin-top: 59px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .four-div ul li,
+    .three-div ul li,
+    .two-div ul li{
+        font-size: 14.7px;
+    }
+
+    .footer-perent{
+        max-width: 73%;
+        display: block;
+    }
+    ul {
+        padding-left: 0rem;
+    }
+}
+@media (max-width: 268px) {
+    .footer-perent{
+        max-width: 90%;
+        box-sizing: border-box;
+        column-gap:0px ;
+       /* padding-left: 5%;
+       padding-right: 5%; */
+        display: block;
+    }
+    input{
+        width: 100%;
+       padding: 8px 0px;
+    }
+    textarea{
+        padding: 8px 0px;
+        width: 100%;
+
+    }
+}
+/* footer two start here */
+
+@media (max-width: 600px) {
+    .footer-two-perent p{
+        padding-bottom: 3px;
+        font-size: 13.5px;
+    }
+
+    .footer-two-perent p a{
+        font-size: 12.5px;
+    }
+}
+
+@media (max-width: 432px) {
+    .footer-two-perent p{
+        font-size: 13px;
+    }
+}
+@media (max-width: 418px) {
+    .footer-two-perent p{
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .footer-two-perent p a{
+        font-size: 12.5px;
+    }
+
+
+}
+@media (max-width: 360px) {
+    .footer-two-perent p{
+        font-size: 12px;
+        padding-left: 4px;
+        padding-right: 4px;
+
+    }
+
+    .footer-two-perent p a{
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 270px) {
+    .one-div p input,
+    .one-div p textarea{
+        padding-left: 8px;
+    }
+}

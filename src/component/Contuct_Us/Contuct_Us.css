@@ -1,0 +1,99 @@
+.gallery-bg-co{
+    background-image: url("./img/about-ban-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center ;
+    background-size: cover;
+    height:51vh;
+  }
+  .gallery-bg-co h1{
+    padding: 0rem 0rem;
+    /* padding-top: 8.2rem; */
+    padding-top: 20.4vh;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px;
+  }
+
+
+  /**************** contuct-page ****************/
+.contuct-header{
+    text-align: center;
+    padding: 25px;
+    font-weight: 700;
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    word-spacing: 1.6px;
+}
+
+
+.contuct-main-page{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 63px;
+}
+.bold{
+    font-weight: 700;
+    color: black;
+}
+.CCtwo-div ul li{
+    font-size: 17px;
+    color: #000;
+}
+.CCtwo-div ul li{
+    color: #000;
+}
+.CCface-icon,.CCtwi-icon{
+    font-size: 33px;
+    padding-right: 6px;
+}
+.CCtwo-div ul li .number-link-color{
+    color: red;
+}
+input{
+    font-size: 17px;
+    font-weight: 600;
+    color: #000;
+}
+
+.send-button-2{
+    font-size: 16px;
+    padding: 15px 44px;
+    padding-top: 16px;
+    border:  none;
+    color: #fff;
+    background-color: #626160;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.send-button-2:hover{
+    background-color: red;
+}
+@media (max-width: 600px) {
+    .contuct-main-page{
+        display: grid;
+        grid-template-columns: 100%;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 63px;
+    }
+}
+
+@media (max-width: 500px) {
+    .gallery-bg-co{
+      height:31vh;
+    }
+    .gallery-bg-co h1{
+        padding-top: 12vh;
+    }
+    
+    }
+
+@media (max-width: 270px) {
+    .CCone-div p input,
+    .CCone-div p textarea{
+        padding-left: 8px;
+    }
+}

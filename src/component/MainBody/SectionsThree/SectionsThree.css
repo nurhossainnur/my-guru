@@ -1,0 +1,227 @@
+
+.bg-three{
+    background-image: url("./img/section-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    letter-spacing: 0.8px;
+    width: 100%;
+  }
+  .section-perent{
+    text-align: center;
+}
+.section-perent h3{
+    box-sizing: border-box;
+    padding-top: 64px;
+
+
+    text-align: center;
+    width: 100%;
+    color: #E4D9AD;
+    padding: 8px;
+}
+.section3-line{
+    border-bottom: solid #E4D9AD 3.7px;
+    width: 120px;
+    margin: 0 auto;
+    margin-top: 22px;
+}
+
+.link-photo{
+
+    margin-top: 65px;  
+    margin-bottom: 50px;
+}
+ .sec-img1,.sec-img2,
+.sec-img3{
+    border: solid white 6px;
+    width: 247px;
+    cursor: pointer;
+}
+.sec-img1,.sec-img2{
+    margin-right: 71px;
+}
+
+.sec-button {
+    margin-bottom: 65px;
+    /* color: rgb(78, 76, 76); */
+
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14.5px;
+    height: 45px;
+    font-weight: 550;
+    background-color: rgb(228, 217, 173);
+    border: none;
+    margin-top: 12px;
+    letter-spacing: 0px;
+    padding-left: 37px;
+    padding-right: 37px;
+    
+}
+.sec-button:hover {
+    background-color: red;
+    color: white;
+  
+}
+
+.section-perent h3{
+    padding-top:55px ;
+}
+
+@media (max-width: 1000px) {
+
+    .section-perent h3{
+        padding-top:55px ;
+    }
+
+    .sec-img1,.sec-img2{
+        margin-right: 28px;
+    }
+
+    .sec-img1,.sec-img2,
+    .sec-img3{
+        border: solid white 6px;
+        width: 237px;
+    }
+
+}
+@media (max-width: 915px) {
+    .section-perent h3{
+        padding-top:55px ;
+    }
+
+    .sec-img1,.sec-img2{
+        margin-right: 25px;
+    }
+    .sec-img1,.sec-img2,
+    .sec-img3{
+        border: solid white 6px;
+        width: 193px;
+    }
+    .sec-button {
+        font-size: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .link-photo{
+        margin-top: 40px;  
+
+    }
+}
+
+@media (max-width: 680px) {
+
+    .section-perent h3{
+        padding-top:55px ;
+    }
+
+    .sec-img1,.sec-img2{
+        margin-right: 20px;
+    }
+    .sec-img1,.sec-img2,
+    .sec-img3{
+        width: 183px;
+        
+    }
+    .link-photo{
+        margin-top: 30px;  
+
+    }
+}
+@media (max-width: 635px) {
+    .section-perent h3{
+        padding: 18px;
+        padding-top:55px ;
+        line-height: 38px;
+       display: block;
+       font-size: 22px;
+    }
+
+    .section3-line{
+        border-bottom: solid #E4D9AD 3.7px;
+        width: 120px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .bg-three{
+      
+    }
+    .sec-img1{
+        /* display: block; */
+        width: 307px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+        /* margin: 0 auto; */
+    }
+    .sec-img2{
+        /* display: block; */
+        width: 307px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+        /* margin: 0 auto; */
+    }
+    .sec-img3{
+        /* display: block; */
+        width: 307px;
+        /* margin: 0 auto; */
+        /* margin: 0 auto; */
+    }
+
+    .link-photo{
+        margin-top: 45px;  
+        /* display: block; */
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: space-around;
+        
+    }
+
+}
+
+@media (max-width: 345px) {
+    .sec-img1{
+        width: 90%;
+        margin: 0 auto;
+   
+        margin-bottom: 30px;
+    }
+    .sec-img2{
+        width: 90%;
+        margin: 0 auto;
+ 
+        margin-bottom: 30px;
+    }
+    .sec-img3{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .link-photo{
+        margin-top: 65px;  
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: space-around;
+        
+    }
+
+}
+@media (max-width: 235px) {
+
+    .sec-button {
+        margin-bottom: 60px;
+        /* color: rgb(78, 76, 76); */
+        font-size: 13px;
+        height: 36px;
+        margin-top: 10px;
+        letter-spacing: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+
+
+
+
+

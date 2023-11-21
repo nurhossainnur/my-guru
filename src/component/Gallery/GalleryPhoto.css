@@ -1,0 +1,27 @@
+.gallery-bg-1{
+    background-image: url("./img/about-ban-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center ;
+    background-size: cover;
+    height:51vh;
+  }
+  .gallery-bg-1 h1{
+    padding: 0rem 0rem;
+    padding-top: 20.5vh;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px;
+  }
+
+  @media (max-width: 500px) {
+    .gallery-bg-1{
+      height:31vh;
+    }
+    .gallery-bg-1 h1{
+        padding-top: 12vh;
+    }
+    
+    }
+
+

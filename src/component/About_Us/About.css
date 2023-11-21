@@ -1,0 +1,211 @@
+.gallery-bg-ab{
+    background-image: url("./img/about-ban-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center ;
+    background-size: cover;
+    height:51vh;
+  }
+  .gallery-bg-ab h1{
+    padding: 0rem 0rem;
+    /* padding-top: 8.2rem; */
+    padding-top: 21.2vh;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px;
+  }
+
+.main-two-div{
+    /* display: grid;
+    grid-template-columns: 50% 50%; */
+    overflow: hidden;
+}
+.about-one img,.about-two p{
+    /* width: 100%; */
+}
+.about-two p{
+   background-color: black;
+   color: white;
+   padding: 88px 41px;
+   font-size: 16.8px;
+   margin-bottom: 0px;
+   letter-spacing: 0.6px;
+   word-spacing: 0.5px;
+   line-height: 25.4px;
+}
+.about-one{
+    overflow: hidden;
+   width: 50%;
+   float: left;
+}
+.about-two p{
+    width: 50%;
+ float: right;
+}
+.about-one img{
+    width: 100%;
+  transition: .5s all ease-in-out;
+    height: auto;
+}
+.about-one:hover img{
+    transform: scale(1.1);
+    height: auto;
+}
+
+.para-about-bottom{
+    background-color:#E4D9AD ;
+   
+}
+.para-about-bottom p{
+    max-width: 1040px;
+   margin: 0 auto;
+   padding: 37px 0px;
+   font-size: 16.8px;
+   letter-spacing: 0.6px;
+   word-spacing: 0.5px;
+}
+
+/* MainBottom css here */
+
+.main-div-bottom{
+    max-width: 1040px;
+    margin: 0 auto;
+    margin-bottom: 42px;
+}
+.bottom-div-1 h3{
+    color: red;
+    font-weight: 800;
+    font-size: 33px;
+}
+.bottom-div-1 .line{
+    border-bottom: solid red 4.4px;
+    width: 50px;
+}
+.bottom-div-1{
+    width: 50%;
+    float: left;
+    font-size: 13.2px;
+    letter-spacing: 0.2px;
+    padding-right: 18px;
+    padding-bottom: 13px;
+}
+.bottom-div-2{
+    overflow: hidden;
+}
+.bottom-div-2 img{
+    transition: .5s all ease-in-out;
+    width: 100%;
+    float: right;
+}
+.bottom-div-2:hover img{
+    transform: scale(1.1);
+    height: auto;
+}
+.bottom-two-div{
+    overflow: hidden;
+    margin-top: 35px;
+}
+.top-para{
+    margin-bottom: 7px;
+    font-size: 16.8px;
+    letter-spacing: 0.6px;
+
+}
+.bottom-para{
+    font-size: 16.8px;
+    letter-spacing: 0.6px;
+
+    margin-bottom: 7px;
+
+}
+
+@media (max-width: 1130px) {
+
+    .para-about-bottom p{
+        max-width: 890px;
+     }
+     
+     .main-div-bottom{
+         max-width: 890px;
+     }
+    
+} 
+
+@media (max-width: 992px) {
+    .main-two-div{
+        position: relative;
+    }
+    .about-one{
+       width: 100%;
+    }
+    .about-two p{
+        width: 100%;
+    }
+    .bottom-div-1{
+        width: 100%;
+        padding-right: 0px;
+    }
+    .bottom-div-2{
+          width: 100%;
+          margin-bottom: 30px;
+    }
+
+     .para-about-bottom p{
+        max-width: 100%;
+        padding: 37px 42px;
+     }
+     
+     .main-div-bottom{
+         max-width: 100%;
+         padding-left:42px;
+         padding-right: 42px;
+     }
+     .about-two p{
+        padding: 58px 41px;
+
+     }
+
+
+} 
+
+@media (max-width: 500px) {
+    .gallery-bg-ab{
+      height:31vh;
+    }
+    .gallery-bg-ab h1{
+        padding-top: 12vh;
+    }
+    
+    .about-two p{
+        padding: 48px 41px;
+
+     }
+
+
+    }
+
+
+
+@media (max-width: 350px) {
+    .bottom-div-1 h3{
+        color: red;
+        font-weight: 600;
+        font-size: 28px;
+    }
+    .bottom-div-1 .line{
+        border-bottom: solid red 4.4px;
+        width: 50px;
+        /* margin-top: px; */
+    }
+
+     .main-div-bottom{
+        max-width: 100%;
+        padding-left:8px;
+        padding-right: 8px;
+     }
+     .about-two p{
+        padding: 38px 41px;
+
+     }
+
+}  

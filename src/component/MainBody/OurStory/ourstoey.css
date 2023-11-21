@@ -1,0 +1,350 @@
+
+.right-div h3{
+    overflow: hidden;
+    width: 530px;
+
+
+    margin-top: -9px;
+    color: red;
+    font-size: 28px;
+
+}
+.right-div .line{
+    border-bottom: solid black 3.4px;
+    width: 70px;
+    margin-top: 18px;
+}
+    *{
+        box-sizing: border-box;
+     
+    }
+    .bg-full{
+        background-image: url("./img/bg.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 70px;
+        padding-bottom: 54px;
+        box-sizing: border-box;
+      }
+
+      .active-navs{
+        border: none;
+        
+        }
+
+    .main-div{
+        margin-top: 125px;
+        position: relative;
+    } 
+    .frist-div{
+        left:50%;
+        transform:translate(-50%,-50%);
+    position: absolute;
+        max-width: 90%;
+        top: 55px;
+        display: flex;
+    
+    }
+    .left-div{
+        padding-top: 4px;
+        overflow: hidden;
+        width: 495px;
+        margin-right: 20px;
+        height: 380px;
+        
+    }
+    .left-div img{
+        width: 100%;
+      transition: .2s all ease-in-out;
+        height: 380px;
+    }
+    .left-div:hover img{
+        transform: scale(1.1);
+        
+    }
+    .right-div{
+        padding-top: 4px;
+        overflow: hidden;
+        width: 495px;
+       margin-left: 20px;
+       text-align: left;
+    }
+    .about-para{
+        padding-top: 7px;
+        font-size: 16.5px;
+        letter-spacing: 0.5px;
+    } 
+    .button-know {
+        color: #ffffff;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 17px;
+        height: 55px;
+        font-weight: 500;
+        background-color: #1f1a15;
+        border: none;
+        margin-top: 6px;
+        letter-spacing: 0px;
+        padding-left: 50px;
+        padding-right: 50px;
+  
+    }
+    .button-know:hover{
+        background-color: red;
+      
+    }
+    
+
+
+
+    .last-div{
+        margin: 0 auto;
+         width: 580px;
+         margin-top: 333px;
+    }
+    .halal-img{
+        margin-top: 97px;
+        margin-left: 155px;
+        width: 195px;
+    }
+    .uber-img{
+        margin-top: 101px;
+        width: 195px;
+    }
+
+  
+    @media (max-width: 530px) {
+        .left-div img{
+            width: 100%;
+          transition: .2s all ease-in-out;
+            height: 310px;
+        }
+        .left-div:hover img{
+            transform: scale(1.1);
+            
+        }
+
+    }
+    @media (max-width: 992px) {
+        .left-div{
+        overflow: hidden;
+        width: 445px;
+        margin-right: 20px;
+        height: 280px;
+    }
+   
+    
+
+    .last-div{
+         width: 460px;
+    }
+    .halal-img{
+        margin-left: 105px;
+        width: 175px;
+    }
+    .uber-img{
+        width: 175px;
+    }
+
+
+
+    }
+    
+    @media (max-width: 815px) {
+        .bg-full{
+          
+          }
+
+
+        .frist-div{
+            display: grid;
+            grid-template-columns: auto;
+          width: 90%;
+            margin-top: 120px;
+        }
+    
+        .left-div{
+           width: 100%; 
+            margin-right:0px;   
+            height: auto;
+        }
+        .right-div{
+            /* text-align: center; */
+            width: 100%; 
+           margin-left:0px;
+           margin: 0 auto;
+          /* margin-top: 33px; */
+        }
+        .right-div h3{
+            width: 100%; 
+            text-align: center;
+            margin-top: 15px;
+            font-size: 33px;
+            font-weight: bolder;
+        
+        }
+        .right-div .line{
+            
+           margin: 0 auto;
+           margin-top: 22px;
+           margin-bottom: 20px;
+        }
+        .about-para{
+            padding-top: 7px;
+            letter-spacing: 0.6px;
+            /* text-align: center; */
+        } 
+        .right-div .button-know {
+            display: block;
+            margin: 0 auto;
+            margin-top: 33px;
+        }
+
+    
+
+        .last-div{
+            margin: 0 auto;
+             width: 410px;
+             margin-top: 563px;
+        }
+        .halal-img{
+            margin-top: 147px;
+            margin-left: 95px;
+            width: 155px;
+        }
+        .uber-img{
+            margin-top: 150px;
+            width: 155px;
+        }
+
+
+
+        }
+@media (max-width: 603px) {
+
+    .frist-div{
+        margin-top: 140px;
+    }
+
+    .last-div{
+
+        margin: 0 auto;
+        width: 85%;
+        margin-top: 607px;
+
+    }
+    .halal-img{
+        margin-top: 147px;
+        margin-left: 11%;
+        width: 44%;
+    }
+    .uber-img{
+        margin-top: 150px;
+        width: 44%;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .left-div{
+        height: 280px;
+            }
+
+
+    /* .frist-div{
+        margin-top: 180px;
+    } */
+    .last-div{
+
+        margin: 0 auto;
+        width: 100%;
+
+
+    }
+    .halal-img{
+        margin-top: 57px;
+        margin-left: 0%;
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+    .uber-img{
+        margin-top: 60px;
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 750px;
+        margin-bottom: 44px;
+    }
+
+}
+
+
+
+@media (max-width: 337px) {
+    .last-div{
+        display: block;
+        position: relative;
+        box-sizing: border-box;
+    }
+    .frist-div{
+        margin-top: 120px;
+    }
+    .left-div{
+height: 210px;
+    }
+    .uber-img{
+        margin-top: 700px;
+    }
+}
+@media (max-width: 330px) {
+    .uber-img{
+        margin-top: 720px;
+    }
+}
+@media (max-width: 310px) {
+    .uber-img{
+        margin-top: 735px;
+    }
+    .button-know {
+ 
+        font-size: 16px;
+       
+        padding-left: 45px;
+        padding-right: 45px;
+  
+    }
+
+
+}
+@media (max-width: 276px) {
+    .uber-img{
+        margin-top: 740px;
+    }
+    .button-know {
+ 
+        font-size: 15px;
+       
+        padding-left: 30px;
+        padding-right: 30px;
+  
+    }
+
+}
+@media (max-width: 251px) {
+    .uber-img{
+        margin-top: 755px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

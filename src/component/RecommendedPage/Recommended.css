@@ -1,0 +1,194 @@
+.galleryre-bg{
+    background-image: url("./img/about-reco-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center ;
+    background-size: cover;
+    height:51vh;
+  }
+  .galleryre-bg h1{
+    padding: 0rem 0px;
+    padding-top: 19.9vh;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px;
+    /* width: 100%; */
+  }
+
+/*================ recommended-main-page css ==================*/
+.controle-div{
+    width: 68%;
+    overflow: hidden;
+    margin: 44px auto;
+}
+
+.reco-para{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 17px;
+    letter-spacing: 0.4px;
+    font-weight: 400;
+    margin-bottom: 33px;
+}
+.reco-para span{
+    font-weight: 900;
+    display: block;
+    padding-bottom: 6px;
+}
+
+
+.recommended-menu{
+    /* max-width: 69%; */
+    margin: 0 auto;
+    /* padding-left: 170px; */
+   
+}
+
+.recom-menu-div{
+    /* position: absolute; */
+    background-color: #000000;
+    width: 210px;
+    /* margin: 0 auto; */
+    /* left: 0; */
+    float: left;
+}
+.recom-menu-div #DÉCOR{
+    padding-top: 14.2px;
+    padding-bottom: 8px;
+    display: block;
+}
+.recom-menu-div #BALOON,
+.recom-menu-div #LIVE,
+.recom-menu-div #PHOTOGRAPHY{
+    padding-top: 12px;
+    padding-bottom: 10px;
+    display: block;
+}
+.recom-menu-div #PROFFESIONALDJ{
+    padding-bottom: 12.9px;
+    padding-top: 11px;
+    display: block;
+
+}
+
+.recom-Menu{
+    margin-top: 6px;
+    padding-top: 16px;
+    /* float: right; */
+
+}
+.bottom-a{
+    padding-bottom: 11.6px;
+}
+/* span a{
+    margin: 0;
+    padding: 0;
+} */
+.recom-menu-span{
+  display: block;
+
+}
+.recom-Menu div p span{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+}
+.reco-number-link-color{
+    text-decoration: none;
+    color: red;
+}
+.recom-menu-div{
+    cursor: pointer;
+    font-size: 12.3px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.4px;
+
+}
+.recom-menu-div span:hover{
+    color: red;
+}
+
+.recom-menu-p{
+    background-color:#E4D9AD ;
+    width: 100%;
+    margin-left: 210px;
+    /* margin: 0 auto; */
+    padding: 0px 20px;
+}
+
+    /* active class */
+.active-cat{
+    border-bottom: solid 1px white;
+    border-top: solid 1px white;
+    color: red;
+}
+.recom-menu-p{
+    display: none;
+}
+.active-page{
+    display: block;
+}
+.recom-menu-p div p{
+    font-size: 17px;
+    font-weight: 400;
+    color: #000000;
+    padding: 0px 6px;
+    letter-spacing: 0.1px;
+}
+
+@media (max-width: 1032px) {
+
+    .controle-div{
+        width: 86%;
+        overflow: hidden;
+        margin: 20px auto;
+    }
+} 
+
+@media (max-width: 768px) {
+
+    .controle-div{
+        width: 90%;
+        overflow: hidden;
+        margin: 20px auto;
+    }
+} 
+@media (max-width: 600px) {
+    .recom-menu-div{
+        width: 90%;
+        float: none;
+        margin: 0 auto;
+    }
+    .recom-menu-p{
+        max-width: 90%;
+        margin-left: 0px;
+        margin: 0 auto;
+        margin-top: -5px;
+    }
+    .reco-para{
+        width: 90%;
+        margin: 0 auto;
+        font-size: 13.5px;
+        letter-spacing: 0.5px;
+        font-weight: 400;
+    }
+
+} 
+
+@media (max-width: 500px) {
+    .galleryre-bg{
+      height:31vh;
+    }
+    .galleryre-bg h1{
+        padding-top: 11.9vh;
+    }
+    
+    }
+
+
+
+
+
+

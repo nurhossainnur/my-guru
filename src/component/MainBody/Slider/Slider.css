@@ -1,0 +1,411 @@
+*{
+    box-sizing: border-box;
+  
+  }
+  .parent-slider{
+    padding-top: 77px;
+  }
+  .carousel .carousel-indicators button{
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+   }
+   
+   .carousel-caption{
+    display: flex;
+    justify-content: center;
+     margin-bottom: 242px;
+   
+     letter-spacing: 0.8px;
+     font-weight: bolder;
+  
+   }
+   .slider-body-text{
+    font-family: 'Mulish', sans-serif;
+
+    padding: 0px;
+    position: absolute;
+    margin: 0px;
+    width: 888px;
+    font-size: 2.6rem;
+    font-weight: bolder;
+    letter-spacing: 0.9px;
+    /* line-height: 49px; */
+   }
+   #silder-img{
+     height: 82vh;
+   }
+  .bg{
+    background-image: url("./Sliders_img/slide-border-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  
+   
+  }
+  .border-text{
+      display: flex;
+      justify-content: center;
+      padding: 2.4rem;
+  }
+  .border-para{
+      color: white;
+      font-size: 28px;
+      padding-right: 30px;
+      padding-top: 13px;
+  
+  }
+  .border-button-div {
+    font-size: 16px!important;
+    margin-top: 24px;
+  
+  }
+   .slider-border-button{
+    cursor: pointer;
+      text-decoration: none;
+      color: rgb(78, 76, 76);
+      padding: 1.1rem 2.8rem;
+      font-weight: bold;
+     letter-spacing: 0.7px;
+      background-color: rgb(228, 217, 173);
+  
+  }
+  .slider-border-button:hover{
+      background-color: red;
+      color: white;
+  }
+   .custom-shape-divider-bottom-1694322337 {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     overflow: hidden;
+     line-height: 0;
+     transform: rotate(180deg);
+   }
+   .custom-shape-divider-bottom-1694322337 svg {
+     position: relative;
+     display: block;
+     width: calc(100% + 1.3px);
+     height: 123px;
+   }
+   .custom-shape-divider-bottom-1694322337 .shape-fill {
+     fill: #4A4A4A;
+   }
+   
+   @media (max-width: 992px) {
+    .border-para{
+      font-size: 24px;
+    padding-top: 11px;
+  }
+
+   .slider-body-text{
+    /* width: 538px; */
+    font-size: 2.2rem;
+   }
+
+
+  .border-button-div {
+  margin-top: 20px;
+  }
+  
+   }
+   @media (max-width: 850px) {
+    .slider-body-text{
+      /* width: 538px; */
+      font-size: 2rem;
+     }
+   }
+   @media (max-width: 770px) {
+    .slider-body-text{
+      /* width: 387px; */
+      font-size: 1.7rem;
+     }
+   }
+   @media (max-width: 720px) {
+    .slider-body-text{
+      /* width: 387px; */
+      font-size: 1.4rem;
+     }
+   }
+   @media (max-width: 530px) {
+    .carousel-caption{
+       margin-bottom: 322px;
+     }
+
+     .slider-body-text{
+      /* width: 387px; */
+      font-size: 1.4rem;
+      margin-top: 82px;
+      letter-spacing: 0.4px;
+     }
+
+   }
+   @media (max-width: 500px) {
+    .carousel-caption{
+      margin-bottom: 332px;
+    }
+
+ 
+  }
+   @media (max-width: 440px) {
+    .carousel-caption{
+      margin-bottom: 352px;
+    }
+    .slider-body-text{
+     width: 317px;
+     /* font-size: 1.1rem; */
+     font-size: 17.4px;
+    }
+ 
+  }
+
+   @media (max-width: 380px) {
+  
+.carousel .carousel-indicators button{
+  margin-bottom: 6px;
+}
+
+
+.carousel-caption{
+  margin-bottom: 282px;
+}
+    .slider-body-text{
+      width: 277px;
+      font-size: 1.1rem;
+      letter-spacing: 0.1px;
+     }
+   }
+
+   @media (max-width: 312px) {
+  
+    .carousel-caption{
+      margin-bottom: 202px;
+    }
+    .slider-body-text{
+      width: 257px; 
+       font-size: 1rem;
+     }
+   }
+   @media (max-width: 250px) {
+    .slider-body-text{
+      width: 197px;
+      font-size: 1.1rem;
+      letter-spacing: 0.1px;
+     }
+   }
+   @media (max-width: 1024px) {
+    .border-para{
+      font-size: 24px;
+    padding-top: 9px;
+    padding-right: 25px;
+    padding-top: 13px;
+
+}
+  .border-button-div {
+  margin-top: 21px;
+  }
+  .slider-border-button{
+
+    padding: 1.1rem 2.6rem;
+  }
+
+   }
+   @media (max-width: 1024px) {
+    .border-para{
+      font-size: 22px;
+    padding-top: 9px;
+    padding-right: 25px;
+    padding-top: 13px;
+
+}
+  .border-button-div {
+  margin-top: 21px;
+  }
+  .slider-border-button{
+
+    padding: 1rem 2rem;
+  }
+
+   }
+
+   @media (max-width: 852px) {
+
+    .border-para{
+      font-size: 28px;
+      padding-right:0px;
+      text-align: center;
+      padding-top: 19px;
+  }
+  .border-button-div {
+  margin-top: 18px;
+  text-align: center;
+  margin-top: 29px;
+  margin-bottom: 4px;
+  }
+  .slider-border-button{
+      padding: 1.1rem 2.5rem;
+  }
+  .border-text{
+    display: block;
+  
+    padding-top: 0rem;
+  }
+  .border-text{
+    margin-top: -6px;
+  }
+  
+  
+   }
+
+   @media (max-width: 768px) { 
+    .border-para{
+      font-size: 24px;
+      padding-top: 32px;
+  }
+  .border-button-div {
+  margin-top: 5px;
+  text-align: center;
+  margin-top: 29px;
+  margin-bottom: 4px;
+  }
+  .slider-border-button{
+      padding: 0.8rem 2rem;
+  }
+  .border-text{
+    display: block;
+  
+    padding-top: 0rem;
+  }
+  .border-text{
+    margin-top: -20px;
+  }
+  
+  
+   }
+   @media (max-width: 653px) {
+    .border-para{
+      font-size: 19px;
+  }
+  .border-button-div {
+  margin-top: 20px;
+  margin-bottom: -5px;
+  }
+  .slider-border-button{
+      padding: 0.9rem 1.7rem;
+  }
+  .border-text{
+    margin-top: -23px;
+  }
+
+   }
+
+
+   @media (max-width: 530px) {
+    .border-para{
+      font-size: 19px;
+  }
+  .border-button-div {
+  margin-top: 20px;
+  margin-bottom: -5px;
+  }
+  .slider-border-button{
+      padding: 0.8rem 1.7rem;
+  }
+   }
+   @media (max-width: 380px) {
+  
+    #silder-img{
+      height: 59vh;
+    }
+  
+  
+  .border-para{
+    font-size: 17px;
+    padding-top: 53px;
+  }
+  .border-button-div {
+  margin-top: 18px;
+
+  margin-bottom: 14px;
+  }
+  .slider-border-button{
+    padding: 0.8rem 1.8rem;
+    font-size: 12px;
+ 
+  }
+  .border-text{
+
+  margin-top: -37px;
+
+  }
+  
+  
+   }
+   @media (max-width: 308px) {
+  
+
+  .border-para{
+    font-size: 17px;
+    padding-top: 66px;
+  }
+  .border-button-div {
+  margin-top: 18px;
+
+  margin-bottom: 33px;
+  }
+  .slider-border-button{
+    padding: 0.7rem 1.4rem;
+    font-size: 12px;
+ 
+  }
+  .border-text{
+
+  margin-top: -56px;
+
+  }
+  
+  
+   }
+
+   @media (max-width: 243px) {
+    .border-para{
+      padding-top: 76px;
+    }
+    .slider-border-button{
+      padding: 0.6rem 1.1rem;
+    }
+    .border-text{
+    margin-top: -66px;
+    }
+     }
+     @media (max-width: 233px) {
+      .border-para{
+        padding-top: 82px;
+      }
+      .slider-border-button{
+        padding: 0.6rem 0.9rem;
+      }
+      .border-text{
+      margin-top: -70px;
+      }
+       }
+
+
+   .prev-show{
+    display: block;
+   }
+  
+   .carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-top: 75px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+}
+
+
+
+

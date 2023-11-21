@@ -1,0 +1,11 @@
+.backto-top-button{
+font-weight: bolder;
+border-radius: 50%;
+border: 2px solid #b0b0b0;
+/* color: #b0b0b0; */
+color: gray;
+padding-bottom: 3px;
+padding-right: 2px;
+background-color: rgba(0,0,0,.2);
+z-index: 99999;
+}
